@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JunoTheme.Flat.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#f5f5f5</item>
+
+        <item name="android:textColorPrimary">#3c3c3c</item>
+        <item name="android:color">#3c3c3c</item>
+
+        <item name="android:fontFamily">@font/spacegrotesk_medium</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="JunoTheme.Flat.Light.EditText">
+        <item name="android:background">@drawable/flat_light_edittext</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textCursorDrawable">@drawable/flat_light_cursor</item>
+
+        <!-- TODO: Add a custom android:textSelectionHandle -->
+    </style>
+
+    <style name="JunoTheme.Flat.Light.TextTitle">
+        <item name="android:fontFamily">@font/spacegrotesk_semibold</item>
+        <item name="android:fontStyle">normal</item>
+        <item name="android:textSize">42sp</item>
+    </style>
+</resources>
